@@ -1,0 +1,80 @@
+unique_id = achievements_1984_revolution
+
+achievement_UKR_return_transcarpathia = {
+
+	happened = {
+		tag = UKR
+		has_country_flag = Return_Carpathia
+		73 = {
+			is_owned_and_controlled_by = UKR
+		}
+		1143 = {
+			is_owned_and_controlled_by = UKR
+		}
+	}
+}
+
+achievement_UKR_fortress_crete = {
+
+	happened = {
+		tag = UKR
+		has_country_flag = Greece_at_Crete
+		has_country_flag = Return_Carpathia
+		73 = {
+			is_owned_and_controlled_by = UKR
+		}
+		1143 = {
+			is_owned_and_controlled_by = UKR
+		}
+	}
+}
+
+achievement_UKR_UKR_RUS_nuance = {
+
+	happened = {
+		tag = UKR
+		RUS = {
+			has_volunteers_amount_from = {
+				tag = UKR
+				count > 1
+			}
+		}
+	}
+}
+
+achievement_UKR_hello_trump = {
+
+	happened = {
+		tag = UKR
+		NYC = {
+			has_volunteers_amount_from = {
+				tag = UKR
+				count > 1
+			}
+		}
+	}
+}
+
+achievement_UKR_faster_than_death = {
+
+	happened = {
+		tag = UKR
+		has_country_flag = united_ukraine
+		UKR_Vasyl_Stus = { is_advisor = yes }
+	}
+}
+
+achievement_UKR_from_san_to_chukotka = {
+
+	happened = {
+		tag = UKR
+		has_country_flag = UKR_united_Rus
+		has_subject = EEU
+		397 = {
+			is_owned_and_controlled_by = EEU
+		}
+		822 = {
+			is_owned_and_controlled_by = EEU
+		}
+	}
+}
